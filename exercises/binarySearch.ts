@@ -1,3 +1,8 @@
+/*
+Binary Search: Write a function that takes a sorted array of integers and a target value as input and returns the index of the target value in the array,
+or -1 if the target value is not found. For example, if the input is [1, 3, 5, 7, 9] and 5, the output should be 2 (the value 5 is at index 2 in the array).
+*/
+
 // I had to do some weird stuff with math.floor and max
 // So maybe we should look at how others do this exercise
 

@@ -1,3 +1,8 @@
+/*
+Write a function that takes a string as input and returns the string reversed.
+For example, if the input is "hello", the output should be "olleh".
+*/
+
 const reverseString = (text: string) => {
   let reversedString: string = "";
 

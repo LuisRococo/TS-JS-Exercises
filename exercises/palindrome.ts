@@ -1,3 +1,8 @@
+/*
+Write a function that takes a string as input and returns true if the string is a palindrome (reads the same forwards and backwards), 
+and false otherwise. For example, if the input is "racecar", the output should be true.
+*/
+
 const isPalindromeRecursive = (word: string): boolean => {
   console.log(word);
 

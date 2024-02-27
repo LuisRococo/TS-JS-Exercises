@@ -1,3 +1,8 @@
+/*
+Check for Balanced Parentheses: Write a function that takes a string of parentheses as input and returns true if the parentheses are balanced (every opening parenthesis has a corresponding closing parenthesis),
+and false otherwise. For example, if the input is "(())", the output should be true.
+*/
+
 const areParenthesesBalanced = (parentheses: string) => {
   const openingParenthesesStack: string[] = [];
 

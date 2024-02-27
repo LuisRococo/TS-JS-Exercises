@@ -33,4 +33,4 @@ const longestValidParentheses = (input: string) => {
 };
 
 const input = ")()())";
-console.log(longestValidParentheses(input));
+console.log(longestValidParentheses("(()"));
