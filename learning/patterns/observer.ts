@@ -1,9 +1,9 @@
-interface IClient {
+interface Observable {
   name: string;
   notify: () => void;
 }
 
-class Client implements IClient {
+class Client implements Observable {
   public name: string;
 
   constructor(name: string) {
@@ -16,9 +16,9 @@ class Client implements IClient {
 }
 
 class Observer {
-  private observers: IClient[] = [];
+  private observers: Observable[] = [];
 
-  public subscribe(newSubscriber: IClient) {
+  public subscribe(newSubscriber: Observable) {
     this.observers.push(newSubscriber);
   }
 
@@ -30,8 +30,8 @@ class Observer {
 }
 
 const client1 = new Client("Luis");
-const client2 = new Client("Edgar");
-const client3 = new Client("Jose");
+const client2 = new Client("Ro");
+const client3 = new Client("Paco");
 
 const observer = new Observer();
 observer.subscribe(client1);
